@@ -265,6 +265,7 @@ int main()
     
     SDL_EnableKeyRepeat(150, 30);
     SDL_ShowCursor(SDL_DISABLE);
+    SDL_WM_GrabInput(SDL_GRAB_ON);
     
     int wsad[4]={0,0,0,0}, ground=0, falling=1, moving=0, ducking=0;
     float yaw = 0;
