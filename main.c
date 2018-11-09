@@ -4,8 +4,8 @@
 #include <SDL.h>
 
 /* Define window size */
-#define W 608
-#define H 480
+#define W 1000
+#define H 700
 /* Define various vision related constants */
 #define EyeHeight  6    // Camera height from floor when standing
 #define DuckHeight 2.5  // And when crouching
