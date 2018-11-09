@@ -363,7 +363,7 @@ int main()
         int x,y;
         SDL_GetRelativeMouseState(&x,&y);
         player.angle += x * 0.03f;
-        yaw          = clamp(yaw - y*0.05f, -5, 5);
+        yaw          = clamp(yaw + y*0.05f, -5, 5);
         player.yaw   = yaw - player.velocity.z*0.5f;
         MovePlayer(0,0);
         
